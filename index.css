@@ -93,7 +93,7 @@ body{
   .menu-pane {
 	background-color: black;
 	position: absolute;
-	transform: translateX(-106vw);
+	transform: translateX(-120vw);
 	transform-origin: (0, 0);
 	width: 100%;
 	height: 100%;
@@ -134,30 +134,22 @@ body{
 	height: 6vh;
   }
   /*///////////////////////////////////////////////////////////////////////////*/
-  .header_icons{
-	margin-left: 60px;
-  }
-  .header_icons_svg{
+header{
+padding-left: 55px;
+width: 100%;
+max-width: 480px;
 
-  }
-  #header_icons_svg_logo{
-	width: 80px;
-
-  }
-  .header_icons{
-	display: flex;
-	align-items: center;
-	justify-content: space-;
-
-  }
-  .header_icons_link{
-	width: 30px;
-
-	
-  }
-  .header_icons_svg{
-	width: 40px;
-  }
-#header_icons_svg_phone{
-	
 }
+.menu-mobile-ul{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+.menu-mobile-li{
+	display: inline-block;
+}
+#logo{
+	width: 80px;
+}
+
